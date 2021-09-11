@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Site Maintenance</title>
+    <style>
+      body { text-align: center; padding: 150px; }
+      h1 { font-size: 50px; }
+      body { font: 20px Helvetica, sans-serif; color: #333; }
+      article { display: block; text-align: left; width: 650px; margin: 0 auto; }
+      a { color: #dc8100; text-decoration: none; }
+      a:hover { color: #333; text-decoration: none; }
+      img{ position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+     }
+    </style>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.3/picturefill.min.js"></script>
+  </head>
+  <body>
+    <picture>
+      <source
+        srcset="/maintenance-vertical.jpg"
+        media="(max-width: 767px)"
+        type="image/jpeg"
+      >
+      <source
+        srcset="/maintenance.jpg"
+        media="(min-width: 768px)"
+        type="image/jpeg"
+      >
+      <img 
+        src="/maintenance-vertical.jpg" 
+        alt="Maintenance - We are currently updating our shop and will be  back  really soon. Thanks for your patience."
+      >
+    </picture>
+   </body>
+</html>
